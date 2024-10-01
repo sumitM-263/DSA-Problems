@@ -28,7 +28,6 @@ long long solve(string s,int k){
         ans+=left;
     }
 
-    // cout << ans << endl;
     return ans;
 }
 
@@ -39,8 +38,8 @@ long long noOfSubstrings(int k,string A){
 }
 
 int main(){
-    string s="ieaouqqieaouqq";
-    int k=1;
+    string s="iqeaouqi";
+    int k=2;
 
     cout << noOfSubstrings(k,s) <<endl;
 }
